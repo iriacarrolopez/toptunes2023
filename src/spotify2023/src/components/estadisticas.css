@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  position: relative;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+nav {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: larger;
+    transform: translate(-50%, -50%);
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.estadisticas {
+    padding: 20px;
+    background-color: #4478C7;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Estilos generales para el componente de estadísticas */
+.estadisticas {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center; /* Centra el contenido del componente */
+  }
+  
+  /* Estilos para el contenedor de estadísticas */
+  .estadistica-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos hijos horizontalmente */
+  }
+  
+  /* Estilos para cada elemento de estadística */
+  .estadistica-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+  }
+  
+  /* Estilos para el texto dentro de cada elemento de estadística */
+  .estadistica-item p {
+    margin: 0; /* Elimina el margen interior */
+    color: black; /* Cambia el color del texto a negro */
+  }
+  
+  /* Estilos para el texto fuerte dentro de cada elemento de estadística */
+  .estadistica-item strong {
+    margin-right: 10px;
+    color: black; /* Cambia el color del texto a negro */
+  }
+  
+  /* Estilos para el mensaje de carga */
+  .estadisticas p {
+    margin-top: 10px;
+    font-style: italic;
+    color: black; /* Cambia el color del texto a negro */
+  }
+  
+  
+  
