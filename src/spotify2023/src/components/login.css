@@ -1,6 +1,6 @@
 .body {
     font-family: Arial, sans-serif;
-    background-image: url('fondo.jpg'); /*Ruta a tu imagen de fondo */
+    background-image: url('fondo.jpg');
     background-size: cover;
     margin: 0;
     display: flex;
@@ -10,7 +10,7 @@
 }
 
 .login-container {
-    background-color: rgba(255, 255, 255, 0.8); /*Color de fondo semi-transparente para mejorar la legibilidad */
+    background-color: rgba(255, 255, 255, 0.8); 
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -56,5 +56,5 @@ button:hover {
 
 .form {
     width: 100%;
-    max-width: 300px; /* Ajusta el ancho del formulario según tus preferencias */
+    max-width: 300px; 
 }

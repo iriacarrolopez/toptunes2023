@@ -5,11 +5,9 @@ function Canciones() {
   const [canciones, setCanciones] = useState([]);
 
   useEffect(() => {
-    // Realiza una solicitud GET al endpoint '/mostrar_canciones' del microservicio
-    fetch('http://localhost:5000/mostrar_canciones') // Reemplaza la URL con la dirección de tu microservicio
+    fetch('http://localhost:5000/mostrar_canciones') 
       .then((response) => response.json())
       .then((data) => {
-        // Al recibir los datos de las canciones, actualiza el estado
         setCanciones(data);
       })
       .catch((error) => {

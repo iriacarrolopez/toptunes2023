@@ -54,24 +54,21 @@ h2 {
     color: #333;
 }
 
-/* Estilos generales para el componente de estadísticas */
 .estadisticas {
     margin-top: 20px;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    text-align: center; /* Centra el contenido del componente */
-  }
+    text-align: center;
+}
   
-  /* Estilos para el contenedor de estadísticas */
-  .estadistica-container {
+.estadistica-container {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centra los elementos hijos horizontalmente */
-  }
+    align-items: center; 
+}
   
-  /* Estilos para cada elemento de estadística */
-  .estadistica-item {
+.estadistica-item {
     margin-bottom: 10px;
     padding: 10px;
     background-color: #f0f0f0;
@@ -79,26 +76,23 @@ h2 {
     border-radius: 5px;
     width: calc(50% - 10px);
     box-sizing: border-box;
-  }
+}
   
-  /* Estilos para el texto dentro de cada elemento de estadística */
-  .estadistica-item p {
-    margin: 0; /* Elimina el margen interior */
-    color: black; /* Cambia el color del texto a negro */
-  }
+.estadistica-item p {
+    margin: 0; 
+    color: black; 
+}
   
-  /* Estilos para el texto fuerte dentro de cada elemento de estadística */
-  .estadistica-item strong {
+.estadistica-item strong {
     margin-right: 10px;
-    color: black; /* Cambia el color del texto a negro */
-  }
+    color: black;
+}
   
-  /* Estilos para el mensaje de carga */
-  .estadisticas p {
+.estadisticas p {
     margin-top: 10px;
     font-style: italic;
-    color: black; /* Cambia el color del texto a negro */
-  }
+    color: black; 
+}
   
   
   

@@ -65,13 +65,13 @@ h2 {
 }
 
 .cancion-item {
-    background-color: #f0f0f0; /* Color de fondo para cada canción */
-    padding: 10px; /* Espaciado interno para mejorar la apariencia */
-    margin: 5px; /* Margen entre los elementos */
-    border-radius: 5px; /* Bordes redondeados para el cuadro */
-    max-width: 300px; /* Ancho máximo para evitar que sea demasiado ancho */
-    width: calc(25% - 10px); /* Calcula el ancho para tres elementos por fila, considerando el margen */
-    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 5px; 
+    border-radius: 5px; 
+    max-width: 300px; 
+    width: calc(25% - 10px); 
+    box-sizing: border-box;
 
 }
 
@@ -82,5 +82,5 @@ h2 {
 }
 
 .cancion-item p {
-    margin: 0; /* Elimina el margen dentro del botón para evitar espacio adicional */
+    margin: 0; 
 }

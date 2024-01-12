@@ -18,30 +18,15 @@ const Login = () => {
       });
 
       if (response.ok) {
-        // Lógica adicional después de un inicio de sesión exitoso
         console.log('Inicio de sesión exitoso');
         window.location.href = 'http://localhost:3000/canciones';
-        // Puedes redirigir a otra página o realizar acciones específicas aquí
       } else {
         console.error('Inicio de sesión fallido');
-        // Lógica para manejar un inicio de sesión fallido, por ejemplo, mostrar un mensaje de error
       }
     } catch (error) {
       console.error('Error al realizar la solicitud:', error);
-      // Lógica para manejar errores de red u otros errores de solicitud
     }
   };
-
-  const handleRegistro = async (e) => {
-    e.preventDefault();
-    window.location.href = 'http://localhost:3000/registro';
-
-  };
-
-
-
-    // window.location.href = 'http://localhost:3000/registro';
-
 
     return (
         <div className='body'>

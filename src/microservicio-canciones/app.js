@@ -1,7 +1,7 @@
-// Importa las dependencias
+// dependencias
 const express = require('express');
 const mongoose = require('mongoose');
-const cors = require('cors'); // Importa la biblioteca CORS
+const cors = require('cors');
 const csv = require('csv-parser');
 const fs = require('fs');
 
@@ -37,7 +37,7 @@ const swaggerOptions = {
       servers: [`http://localhost:${port}`],
     },
   },
-  apis: ['app.js'], // Especifica los archivos que contienen las rutas que deseas documentar
+  apis: ['app.js'], 
 };
 
 const swaggerSpec = swaggerJSDoc(swaggerOptions);
@@ -49,7 +49,7 @@ const User = mongoose.model('User', {
   email: String,
 });
 
-// Define el esquema para el modelo de canción
+// Esquema del modelo de canción
 const songSchema = new mongoose.Schema({
   track_name: String,
   artist_name: String,
@@ -83,7 +83,7 @@ const Song = mongoose.model('Song', songSchema);
 // Exporta el modelo para su uso en otras partes del código
 module.exports = Song;
 
-// Middleware para permitir solicitudes CORS
+
 app.use(cors());
 
 /**
