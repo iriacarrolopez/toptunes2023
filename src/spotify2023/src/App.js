@@ -4,7 +4,6 @@ import Canciones from './components/Canciones';
 import UsersComponent from './components/Perfil';
 import StatsComponent from './components/Estadisticas';
 import Login from './components/Login';
-import Registro from './components/Registro';
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
           <Route path="/estadisticas" element={<StatsComponent />} /> 
           <Route path="/perfil" element={<UsersComponent />} />
           <Route path="/" element={<Login />} />
-          <Route path="/registro" element={<Registro />} />
         </Routes>
       </div>
     </Router>
